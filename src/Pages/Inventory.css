@@ -1,0 +1,75 @@
+
+
+.inventory-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.filter-buttons {
+  margin-bottom: 15px;
+}
+
+.filter-buttons button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  border: none;
+  background-color: #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.filter-buttons .active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.horizontal-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.horizontal-table th,
+.horizontal-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-image {
+  width: 60px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.status-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.status-btn.delivered {
+  background-color: #4caf50;
+  color: white;
+}
+
+.status-btn.pending {
+  background-color: #f44336;
+  color: white;
+}
+
+.clear-btn {
+  background-color: transparent;
+  color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.clear-btn:hover {
+  background-color: red;
+  color: white;
+}
